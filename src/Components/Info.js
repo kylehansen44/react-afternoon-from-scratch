@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Data from '../Data'
 
 
 class Info extends Component {
@@ -19,12 +20,15 @@ class Info extends Component {
     render(){
         return (
             <div className='info'>
-                <h1 className='number'>1</h1>
-                <h1 className='name'>Name</h1>
-                <h2 className='from'>from</h2>
-                <h2 className='title'>title</h2>
-                <h2 className='employer'>employer</h2>
-                <h2 className="movies">Favorite movies</h2>
+                <span className='number'>1</span>
+                <span className='name'>Name</span>
+                <span className='from'>From:</span>
+                <span className='title'>Job Title:</span>
+                <span className='employer'>Employer:</span>
+                <span className="movies">Favorite Movies:</span>
+                <ol className ='list'>
+                    <li>Dark Knight</li>
+                </ol>
             </div>
         )
     }
