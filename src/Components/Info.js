@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Data from '../Data'
+import data from '../Data'
 
 
 class Info extends Component {
@@ -18,6 +19,7 @@ class Info extends Component {
     }
 
     render(){
+        console.log(data.element.id)
         return (
             <div className='info'>
                 <span className='number'>1</span>
