@@ -21,8 +21,8 @@ class Info extends Component {
         return (
             <div className='info'>
                 <span className='number'>1</span>
-                <span className='name'>Name</span>
-                <span className='from'>From:</span>
+                <span className='name'></span>
+                <span className='from'>From:{this.state.city}</span>
                 <span className='title'>Job Title:</span>
                 <span className='employer'>Employer:</span>
                 <span className="movies">Favorite Movies:</span>
